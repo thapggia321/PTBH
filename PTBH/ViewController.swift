@@ -64,8 +64,8 @@ class ViewController: UIViewController {
                         
                     }else{
                         var sq : Double = sqrt(delta);
-                        var x1: Double = (-self.b+sq)/(2*self.a);
-                        var x2: Double = (-self.b-sq)/(2*self.a);
+                        var x1: Double = (-self.b+sq)/(2*a);
+                        var x2: Double = (-self.b-sq)/(2*a);
                         self.txtResult.text = String (format: "Phuong Trinh Co 2 Nghiem Phan Biet x1= %.1f , x2= %.1f",x1,x2);
                     }
 
@@ -113,9 +113,9 @@ class ViewController: UIViewController {
                     return true;
                 }
             }
-            return true;
+             return true;
             
-                }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
